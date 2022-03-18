@@ -9,7 +9,7 @@ signup_schema = {
         "zip_code": {"type": "string"},
         "hobbies": {"type": "string"},
         "interests": {"type": "string"},
-        "friend_radius": {"type": "number"},
+        "radius": {"type": "number"},
     },
     "required": ["email", "password", "name", "zip_code"],
 }

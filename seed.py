@@ -22,12 +22,13 @@ db.session.commit()
 
 
 user = User(
-    email="test@fd.ew",
+    email="test@test.com",
     password="$2b$12$lkFyBkmiDof8Tqt/dv1G9ey5aNV297Ed8l6z3zGmJwujeiiEgFhUq",
     name="Testy Testerson",
     hobbies="None",
     interests="A few",
     zip_code="94709",
+    radius=5,
 )
 
 db.session.add(user)
